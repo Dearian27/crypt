@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.container {
+  display: flex;
+  flex-direction: column;
+  padding: 200px;
+}
+
+#keyword, #input {
+  font-size: 20px;
+  padding: 20px 20px;
+  width: 300px;
+}
+#response { 
+  font-size: 32px;
+  padding: 10px;
+}
+#btnCrypt, #btnUncrypt {
+  padding: 20px 20px;
+  font-size: 20px;
+  width: 150px;
+  background-color: black;
+  color: white;
+  border: none;
+  margin: 0;
+}
+.left {
+  border-left: grey 1px solid !important;
+}
